@@ -1,0 +1,96 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    padding: 40px;    
+}
+
+.hidden {
+  display: none;
+}
+
+#app, #login {
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: calc(100% - 120px);
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 16px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    background-color: #f9f9f9;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: grab;
+}
+
+li.dragging {
+  opacity: 0.5;
+  border: 2px dashed #007BFF;
+}
+
+.checkbox {
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+  accent-color: #007BFF;
+}
+
+.handle {
+  padding: 0 10px;
+  font-weight: bold;
+  color: #666;
+  cursor: grab;
+}
+
+.new-item {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+#summary {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #444;
+  text-align: center;
+}
